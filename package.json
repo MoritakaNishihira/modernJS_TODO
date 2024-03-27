@@ -1,15 +1,19 @@
 {
-  "name": "modernJS_TODO",
+  "name": "modernjs_todo",
   "version": "1.0.0",
-  "description": "",
+  "description": "プレーンなJSでTODOアプリを作る",
   "main": "index.js",
+  "dependencies": {
+    "hamt_plus": "^1.0.2",
+    "js-tokens": "^4.0.0",
+    "loose-envify": "^1.4.0",
+    "react": "^18.2.0",
+    "recoil": "^0.7.7"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "react": "^18.2.0",
-    "recoil": "^0.7.7"
-  }
+  "license": "ISC"
 }
