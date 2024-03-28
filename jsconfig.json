@@ -5,8 +5,8 @@
     "lib": ["DOM", "ES2022"],
     "module": "AMD",
     "allowJs": true,
-    "strict": true,
-    "noUncheckedIndexedAccess": true
+    "strict": false,
+    "noUncheckedIndexedAccess": false
   },
   "exclude": ["node_modules"]
 }
